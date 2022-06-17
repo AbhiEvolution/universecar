@@ -1,0 +1,25 @@
+@import "header.scss";
+@import "footer.scss";
+body {
+  background-color: white;
+}
+
+.container-fluid {
+  .row {
+    .column img {
+      width: 60vmin;
+      height: 45vmin;
+      padding: 1vmin;
+    }
+  }
+}
+main {
+  .container-fluid #expandedImg {
+    width: 80vmin;
+    height: 50vmin;
+    box-shadow: 25px 25px 42px black;
+    z-index: -1;
+    border-radius: 0.5em;
+    margin-top: 2em;
+  }
+}

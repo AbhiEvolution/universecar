@@ -1,0 +1,100 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  background: white;
+}
+
+a.navbar-brand {
+  padding-left: 0.5em !important;
+  color: black !important;
+  font-size: 3vmin;
+}
+
+header {
+  -webkit-box-shadow: 25px 25px 22px 10px #8a8989;
+          box-shadow: 25px 25px 22px 10px #8a8989;
+  z-index: -1;
+}
+
+header a {
+  padding-left: 0.5em !important;
+  color: black !important;
+  font-size: 3vmin;
+}
+
+header a:hover {
+  color: #d61818 !important;
+  background-color: white;
+}
+
+section .container .d-flex .title {
+  font-size: 3vmin;
+  font-weight: bold;
+}
+
+section .container .d-flex .subtitle {
+  font-size: 3vmin;
+  font-weight: bold;
+}
+
+/* Define standard variables and values for website */
+/* Use the variables */
+footer {
+  margin-top: 3vmin;
+  background-color: gray;
+  padding: 5vmin;
+}
+
+footer a {
+  padding-left: 3vmin;
+  font-size: 5vmin;
+}
+
+footer .facebook a {
+  color: blue;
+}
+
+footer .youtube a {
+  color: red;
+}
+
+footer .instagram a {
+  color: #db7a42;
+}
+
+footer .twitter a {
+  color: #1da1f2;
+}
+
+footer .google a {
+  color: #ea4335;
+}
+
+footer .github a {
+  color: rgba(30, 119, 30, 0.883);
+}
+
+footer a:hover {
+  color: black;
+}
+
+.container label {
+  float: left;
+}
+
+.container textarea {
+  width: 100%;
+  resize: none;
+}
+
+.container button {
+  width: 100%;
+}
+/*# sourceMappingURL=contactus.css.map */

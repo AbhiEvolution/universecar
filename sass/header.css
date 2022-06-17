@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  background: white;
+}
+
+a.navbar-brand {
+  padding-left: 0.5em !important;
+  color: black !important;
+  font-size: 3vmin;
+}
+
+header {
+  -webkit-box-shadow: 25px 25px 22px 10px #8a8989;
+          box-shadow: 25px 25px 22px 10px #8a8989;
+  z-index: -1;
+}
+
+header a {
+  padding-left: 0.5em !important;
+  color: black !important;
+  font-size: 3vmin;
+}
+
+header a:hover {
+  color: #d61818 !important;
+  background-color: white;
+}
+
+section .container .d-flex .title {
+  font-size: 3vmin;
+  font-weight: bold;
+}
+
+section .container .d-flex .subtitle {
+  font-size: 3vmin;
+  font-weight: bold;
+}
+/*# sourceMappingURL=header.css.map */

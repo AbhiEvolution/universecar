@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="stylesheet" href="../sass/bike.css">
+  <script src="../js/search.js"></script>
+  <script src="../js/gallery.js"></script>
+  <title>Bike</title>
+</head>
+
+<body>
+  <!-- nav start-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../source/home.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../source/services.html">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Gallery</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../source/car.html">Car</a></li>
+                <li><a class="dropdown-item" href="../source/bike.html">Bike</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../source/contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" name="form" onsubmit="return validateForm()" method="post">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--header End-->
+  <!--title start-->
+  <div class="container text-center">
+    <div class="row">
+      <div class="column">
+        <h1 class="title">World Famous Cars & Bikes</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="column">
+        <h5>Make your Life Fast</h5>
+      </div>
+    </div>
+  </div>
+  <!--title end-->
+
+  <!--Main start-->
+
+  <main>
+    <center>
+      <div class="container-fluid">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg">
+        <div id="imgtext"></div>
+      </div>
+    </center>
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="column">
+          <img src="../images/bike/ktm.jpg" alt=".." onclick="myFunction(this)">
+          <img src="../images/bike/ktmb.jpg" alt=".." onclick="myFunction(this)">
+          <img src="../images/bike/suzuki.jpg" alt=".." onclick="myFunction(this)">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="column">
+          <img src="../images/bike/bike2.jpg" alt=".." onclick="myFunction(this)">
+          <img src="../images/bike/bike3.jpg" alt=".." onclick="myFunction(this)">
+          <img src="../images/bike/bike1.jpg" alt=".." onclick="myFunction(this)">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="column">
+          <img src="../images/bike/bike4.jpg" alt=".." onclick="myFunction(this)">
+          <img src="../images/bike/bike5.jpg" alt=".." onclick="myFunction(this)">
+          <img src="../images/bike/bike6.jpg" alt=".." onclick="myFunction(this)">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="column">
+          <img src="../images/bike/bike7.jpg" alt=".." onclick="myFunction(this)">
+          <img src="../images/bike/bike8.jpg" alt=".." onclick="myFunction(this)">
+          <img src="../images/bike/bike9.jpg" alt=".." onclick="myFunction(this)">
+        </div>
+      </div>
+      <h1 text-center>Resources</h1>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <i class="fal fa-align-justify text-success"></i> &nbsp; Car insurance product policy.<br>
+            <a href="#" class="text-success">Get started ></a>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <i class="fal fa-align-justify text-success"></i> &nbsp; Financial Services Guide .<br>
+            <a href="#" class="text-success">Get started ></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <i class="fal fa-align-justify text-success"></i> &nbsp; Are you under insured?<br>
+            <a href="#" class="text-success">Get started ></a>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <i class="fal fa-align-justify text-success"></i> &nbsp; Start a claim anytime<br>
+            <a href="#" class="text-success">Start a claim ></a>
+          </div>
+        </div>
+      </div>
+  </main>
+  <!--main end-->
+
+  <!--footer start-->
+  <footer mt-4>
+    <div class="container-fluid text-center">
+      <div class="d-flex justify-content-center">
+        <div class="facebook"><a href="https://www.facebook.com/ " target="_blank"><i class="bi bi-facebook"></i></a>
+        </div>
+        <div class="google"><a href="https://www.twitter.com/" target="_blank"><i class="bi bi-google"></i></a></div>
+        <div class="twitter"> <a href="https://www.twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a></div>
+        <div class="youtube"><a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a></div>
+        <div class="instagram"><a href="https://www.instagram.com" target="_blank"> <i class="bi bi-instagram"></i></a>
+        </div>
+        <div class="github"><a href="https://www.github.com" target="_blank"> <i class="bi bi-github"></i></a></div>
+      </div>
+    </div>
+  </footer>
+  <!--footer End-->
+</body>
+
+</html>

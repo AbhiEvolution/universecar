@@ -1,0 +1,43 @@
+$bk: black;
+$shadow: 25px 25px 22px 10px rgb(138, 137, 137);
+$text: 3vmin;
+$subtext: 2vmin;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+.navbar {
+  background: white;
+}
+
+a.navbar-brand {
+  padding-left: 0.5em !important;
+  color: $bk !important;
+  font-size: $text;
+}
+header {
+  box-shadow: $shadow;
+  z-index: -1;
+  a {
+    padding-left: 0.5em !important;
+    color: $bk !important;
+    font-size: $text;
+    &:hover {
+      color: rgb(214, 24, 24) !important;
+      background-color: white;
+    }
+  }
+}
+
+section .container .d-flex .title {
+  font-size: $text;
+  font-weight: bold;
+}
+section .container .d-flex .subtitle {
+  font-size: $text;
+  font-weight: bold;
+}

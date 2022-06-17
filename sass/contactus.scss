@@ -1,0 +1,15 @@
+@import "header.scss";
+@import "footer.scss";
+$width: 100%;
+.container {
+  & label {
+    float: left;
+  }
+  & textarea {
+    width: $width;
+    resize: none;
+  }
+  & button {
+    width: $width;
+  }
+}

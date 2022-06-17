@@ -1,0 +1,13 @@
+@import "header.scss";
+@import "footer.scss";
+@import "bike.scss";
+main {
+  .container-fluid #expandedImg {
+    width: 80vmin;
+    height: 50vmin;
+    box-shadow: 25px 25px 42px black;
+    z-index: -1;
+    border-radius: 0.5em;
+    margin-top: 2em;
+  }
+}

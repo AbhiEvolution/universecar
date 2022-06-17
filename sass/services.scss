@@ -1,0 +1,22 @@
+@import "header.scss";
+@import "footer.scss";
+
+$w: 186vmin;
+$h: 80vmin;
+$shadow: 25px 25px 42px black;
+$bgcolor: lightgray;
+
+.container {
+  .row {
+    img {
+      margin-top: 1.7em;
+      padding: 2vmin;
+      border-radius: 5px;
+      width: $w;
+      height: $h;
+      box-shadow: $shadow;
+      z-index: -1;
+      background-color: $bgcolor;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+/* Define standard variables and values for website */
+$bgcolor: gray;
+$fb: blue;
+$yb: red;
+$insta: #db7a42;
+$twitter: #1da1f2;
+$google: #ea4335;
+$github: rgba(30, 119, 30, 0.883);
+$marginPadding: 3vmin;
+$font-size: 5vmin;
+
+/* Use the variables */
+
+footer {
+  margin-top: $marginPadding;
+  background-color: $bgcolor;
+  padding: 5vmin;
+  a {
+    padding-left: $marginPadding;
+    font-size: $font-size;
+  }
+  .facebook a {
+    color: $fb;
+  }
+  .youtube a {
+    color: $yb;
+  }
+  .instagram a {
+    color: $insta;
+  }
+  .twitter a {
+    color: $twitter;
+  }
+  .google a {
+    color: $google;
+  }
+  .github a {
+    color: $github;
+  }
+  a:hover {
+    color: black;
+  }
+}
